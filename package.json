@@ -1,0 +1,29 @@
+{
+  "name": "antiaris-component",
+  "version": "1.0.0",
+  "description": "Component extends React",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/antiaris/antiaris-component.git"
+  },
+  "keywords": [
+    "antiaris",
+    "component"
+  ],
+  "author": "yanni4night@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/antiaris/antiaris-component/issues"
+  },
+  "engines": {
+    "node": ">=4.0.0"
+  },
+  "homepage": "https://github.com/antiaris/antiaris-component#readme",
+  "dependencies": {
+    "react": "^15.1.0"
+  }
+}
