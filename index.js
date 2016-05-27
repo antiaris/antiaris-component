@@ -23,7 +23,6 @@ class AntiarisComponent extends React.Component {
     }
     /**
      * 收集一个 Component 目录下的所有静态资源。
-     * 
      */
     collectResource() {
         const  {appName, displayName, props} = this;

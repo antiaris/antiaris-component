@@ -4,7 +4,7 @@
   "description": "Component extends React",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "./node_modules/.bin/mocha"
   },
   "repository": {
     "type": "git",
@@ -20,10 +20,13 @@
     "url": "https://github.com/antiaris/antiaris-component/issues"
   },
   "engines": {
-    "node": ">=4.0.0"
+    "node": ">=6.0.0"
   },
   "homepage": "https://github.com/antiaris/antiaris-component#readme",
   "dependencies": {
     "react": "^15.1.0"
+  },
+  "devDependencies": {
+    "mocha": "^2.5.3"
   }
 }
