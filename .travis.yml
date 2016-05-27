@@ -3,4 +3,4 @@ before_install:
 sudo: false # this opts into the container-base infrastructure that has no sudo commnand avaliable, but runs much faster
 node_js:
   - "6"
-  - "latest"
+  - stable
