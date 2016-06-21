@@ -3,6 +3,23 @@
 
 继承 `React.Component`，支持静态资源收集。
 
+```js
+import AntiarisComponent from 'antiaris-component';
+
+class BaseCompnent extends AntiarisComponent{
+    constructor(props, displayName) {
+        super(props, 'app', displayName)
+    }
+}
+
+class CustomCompnent extends BaseCompnent{
+    constructor(props) {
+        super(props, 'custom');
+    }
+}
+```
+
+
 [npm-url]: https://npmjs.org/package/antiaris-component
 [downloads-image]: http://img.shields.io/npm/dm/antiaris-component.svg
 [npm-image]: http://img.shields.io/npm/v/antiaris-component.svg

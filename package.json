@@ -1,6 +1,6 @@
 {
   "name": "antiaris-component",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Component extends React",
   "main": "index.js",
   "scripts": {
@@ -24,6 +24,7 @@
   },
   "homepage": "https://github.com/antiaris/antiaris-component#readme",
   "dependencies": {
+    "lodash": "^4.13.1",
     "react": "^15.1.0"
   },
   "devDependencies": {

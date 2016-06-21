@@ -19,7 +19,7 @@ describe('Component', () => {
             const add = (...args) => res.push(...args);
             const c = new Component({add}, 'app', 'demo');
             assert.deepEqual(res.length, 1);
-            assert.ok(res.indexOf('app/component/demo') > -1);
+            assert.ok(res.indexOf('app:component/demo') > -1);
         });
     });
 });
