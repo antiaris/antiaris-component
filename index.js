@@ -1,19 +1,19 @@
 /**
- * Copyright (C) 2016 yanni4night.com
+ * Copyright (C) 2016 antiaris.xyz
  * index.js
  *
  * changelog
  * 2016-05-27[18:01:40]:revised
  * 2016-06-21[11:06:53]:change path pattern;remove util dependency
+ * 2016-06-26[02:54:03]:fixed component path
  *
  * @author yanni4night@gmail.com
- * @version 2.0.0
+ * @version 2.1.0
  * @since 1.0.0
  */
 'use strict';
 
 const React = require('react');
-const isFunction = require('lodash/isFunction');
 
 class AntiarisComponent extends React.Component {
     constructor(props, appName, displayName) {
@@ -34,8 +34,8 @@ class AntiarisComponent extends React.Component {
         const {
             add
         } = props;
-        if (isFunction(add)) {
-            add(`${appName}:component/${displayName}`);
+        if (typeof add === 'function') {
+            add(`${appName}:src/component/${displayName}`);
         }
     }
 }
