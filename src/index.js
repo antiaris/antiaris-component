@@ -8,7 +8,7 @@
  * 2016-06-26[02:54:03]:fixed component path
  *
  * @author yanni4night@gmail.com
- * @version 2.1.0
+ * @version 2.2.0
  * @since 1.0.0
  */
 'use strict';
@@ -40,4 +40,4 @@ class AntiarisComponent extends React.Component {
     }
 }
 
-module.exports = AntiarisComponent;
+export default AntiarisComponent;

@@ -9,7 +9,7 @@
  * @version 1.0.0
  * @since 1.0.0
  */
-const Component = require('../');
+const Component = require('../component');
 const assert = require('assert');
 
 describe('Component', () => {
